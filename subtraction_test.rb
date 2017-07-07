@@ -3,7 +3,7 @@ require "minitest/autorun"
 
 require_relative "subtraction.rb"
 
-class Addition < Minitest::Test
+class Subtraction < Minitest::Test
 
 	def test_1_equals_1
 		assert_equal(1,1)
